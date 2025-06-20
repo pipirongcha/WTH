@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage012_B
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: -179269520078878340, guid: 4b4b57f0c0c339e49b865e3193e340e0, type: 3}
+  CodeTitleTXT: "\uD0C0\uC785\uBA85 \uC2E4\uC885\uC0AC\uAC74(B)"
+  CodeMainTXT: "\uB204\uAC00 result\uC758 \uD0C0\uC785\uBA85\uC744 \uD6D4\uCCD0\uAC14\uC744\uAE4C\uC694? "
+  IsItGood: 0
+  StageCodeFile: {fileID: 4900000, guid: af37e33c4b4eee2438c0fe83aa65542c, type: 3}
+  StageNameCode: public int Stage_
+  StageCode: "(int n)\r\n    {\r\n        int a = (n * 13 + 27) ^ (n * 5);\r\n       
+    int b = (a + 39) * 3;\r\n        int c = ((b / 4) - 7) * (n % 2 == 0 ? 9 : 2);\r\n       
+    int d = (c * 17) + 42;\r\n\r\n        result = a + b + c + d;\r\n\r\n       
+    return result; \r\n    }\r\n}"
+  StageAnimation: {fileID: 0}

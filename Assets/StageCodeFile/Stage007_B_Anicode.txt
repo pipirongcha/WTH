@@ -1,0 +1,12 @@
+(List<int> numbers, int target)
+    {
+        if (numbers.Contains(target)
+        {
+            Console.WriteLine($"The number {target} is in the list.");
+        }
+        else
+        {
+            Console.WriteLine($"The number {target} is not in the list.");
+        }
+    }
+}

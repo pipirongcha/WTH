@@ -1,0 +1,12 @@
+(int NuMbEr)
+    {
+        string StR = NuMbEr.ToString();
+        int LEn = StR.Length;
+        for (int i = 0; i < LEn / 2; i++)
+        {
+            if (StR[i] != StR[LEn - 1 - i])
+                return false;
+        }
+        return true;
+    }
+}

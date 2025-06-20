@@ -1,0 +1,18 @@
+(List<string> words, string searchTerm)
+    {
+        List<string> foundWords = new List<string>();
+
+        foreach (string word in words)
+        {
+            if (word.Contain(searchTerm))
+            {
+                foundWords.Add(word);
+            }
+        }
+
+        string foundWordsString = string.Join(", ", foundWords);
+        Console.WriteLine("Words containing '" + searchTerm + "': " + foundWordsString);
+
+        Console.WriteLine("Total found words: " + foundWords.Count.ToString());
+    }
+}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage003_G
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: 7255597186690237232, guid: 0b9bbba2bf353d64e89602fafe4887a0, type: 3}
+  CodeTitleTXT: "\uD3B8\uC2DD\uC7C1\uC774 \uB9AC\uC2A4\uD2B8(G)"
+  CodeMainTXT: "\uC22B\uC790\uB97C \uD3B8\uC2DD\uD558\uB2E4\uB2C8!"
+  IsItGood: 1
+  StageCodeFile: {fileID: 4900000, guid: 7b7689f968d89eb47ab70b216821cbfd, type: 3}
+  StageNameCode: public List<int> Stage_
+  StageCode: "(List<int> numbers, int min, int max)\r\n    {\r\n        List<int>
+    filtered = new List<int>();\r\n\r\n        foreach (int number in numbers)\r\n       
+    {\r\n            if (number >= min && number <= max)\r\n            {\r\n               
+    filtered.Add(number);\r\n            }\r\n        }\r\n\r\n        return filtered;\r\n   
+    }\r\n}"
+  StageAnimation: {fileID: 0}

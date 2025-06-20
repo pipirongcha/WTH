@@ -1,0 +1,19 @@
+(int number, int baseValue)
+    {
+        if (baseValue < 2 || baseValue > 16)
+            throw new ArgumentException("baseValue must be between 2 and 16.");
+
+        if (number == 0) return "0";
+
+        const string chars = "0123456789ABCDEF";
+        string result = string.Empty;
+
+        while (number > 0)
+        {
+            result = chars[number % baseValue] + result;
+            number /= baseValue;
+        }
+
+        return result;
+    }
+}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage017_B
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: -1771610188370559360, guid: f7af215c5bd52b6409eec8bd83a2590c, type: 3}
+  CodeTitleTXT: "\uD0C0\uC785\uCE90\uC2A4\uD305(B)"
+  CodeMainTXT: "\uD0C0\uC785\uCE90\uC2A4\uD305 \uADF8\uB807\uAC8C \uC4F0\uB294 \uAC70
+    \uC544\uB2CC\uB385"
+  IsItGood: 0
+  StageCodeFile: {fileID: 4900000, guid: c0f4e2c751879464e9bdb2df6356dcfb, type: 3}
+  StageNameCode: public string Stage_
+  StageCode: "(int x)\r\n    {\r\n       return (string)x;\r\n    }\r\n}"
+  StageAnimation: {fileID: 0}

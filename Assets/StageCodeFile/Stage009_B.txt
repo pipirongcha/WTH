@@ -1,0 +1,6 @@
+(DateTime date1, DateTime date2)
+    {
+        #게임을 플레이 해주셔서 감사합니다! 
+        return Math.Abs((date2 - date1).Days);
+    }
+}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage011_B
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: -1023655757668553109, guid: bdcfdd2b3bfd3da40bcc3b6019ddf272, type: 3}
+  CodeTitleTXT: "\uAC12\uC744 \uBC18\uD658\uD558\uACE0\uD30C(B)"
+  CodeMainTXT: "bool\uAC12\uC744 \uB9AC\uD134\uD558\uB77C\uACE0 \uB9D0\uD574\uC918\uC694"
+  IsItGood: 0
+  StageCodeFile: {fileID: 4900000, guid: 6fa77a3601b395c4da4edefa59a34645, type: 3}
+  StageNameCode: public void Stage_
+  StageCode: "(int n)\r\n    {\r\n        string a = n.ToString();\r\n        int
+    b = a.Length;\r\n        for (int i = 0; i < b / 2; i++)\r\n        {\r\n           
+    if (a[i] != a[b - 1 - i])\r\n                return false;\r\n        }\r\n       
+    return true;\r\n    }\r\n}"
+  StageAnimation: {fileID: 0}

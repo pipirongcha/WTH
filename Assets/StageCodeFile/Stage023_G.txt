@@ -1,0 +1,28 @@
+(int n)
+    {
+        if (n <= 0 || n > 5)
+        {
+            Console.WriteLine("n은 1과 5 사이의 정수여야 합니다");
+        }
+        if(n == 1)
+        {
+            Console.WriteLine("1이네용 ^0^");
+        }
+        else if (n == 2)
+        {
+            Console.WriteLine("2네용 ^0^");
+        }
+        else if (n == 3)
+        {
+            Console.WriteLine("3이네용 ^0^");
+        }
+        else if (n == 4)
+        {
+            Console.WriteLine("4네용 ^0^");
+        }
+        else if (n == 5)
+        {
+            Console.WriteLine("5네용 ^0^");
+        }
+    }
+}

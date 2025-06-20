@@ -1,0 +1,6 @@
+()
+   {
+       int randomValue = Random.Range(0, 100);
+       Debug.Log("Generated random value: " + randomValue);
+   }
+}

@@ -1,0 +1,15 @@
+(List<int> numbers, int min, int max)
+    {
+        List<int> filtered = new List<int>();
+
+        foreach (int number in numbers)
+        {
+            if (number >= min && number <= max)
+            {
+                filtered.Add(number);
+            }
+        }
+
+        return filtered;
+    }
+}

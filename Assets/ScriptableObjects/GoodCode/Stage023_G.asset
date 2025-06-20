@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage023_G
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: -7713695783602129638, guid: 5c2faa32477bf2f46b443037d5ebddab, type: 3}
+  CodeTitleTXT: "\uBC18\uBCF5\uBB38\uC740 \uBC94\uC8C4\uC57C?(G)"
+  CodeMainTXT: "\uC544\uBB34\uD2BC \uB3D9\uC791\uD558\uC796\uC544\uC694?"
+  IsItGood: 1
+  StageCodeFile: {fileID: 4900000, guid: 38bb490f016361f47afce6bae673eb60, type: 3}
+  StageNameCode: public void Stage_
+  StageCode: "(int n)\r\n    {\r\n        if (n <= 0 || n > 5)\r\n        {\r\n           
+    Console.WriteLine(\"n\uC740 1\uACFC 5 \uC0AC\uC774\uC758 \uC815\uC218\uC5EC\uC57C
+    \uD569\uB2C8\uB2E4\");\r\n        }\r\n        if(n == 1)\r\n        {\r\n           
+    Console.WriteLine(\"1\uC774\uB124\uC6A9 ^0^\");\r\n        }\r\n        else
+    if (n == 2)\r\n        {\r\n            Console.WriteLine(\"2\uB124\uC6A9 ^0^\");\r\n       
+    }\r\n        else if (n == 3)\r\n        {\r\n            Console.WriteLine(\"3\uC774\uB124\uC6A9
+    ^0^\");\r\n        }\r\n        else if (n == 4)\r\n        {\r\n           
+    Console.WriteLine(\"4\uB124\uC6A9 ^0^\");\r\n        }\r\n        else if (n
+    == 5)\r\n        {\r\n            Console.WriteLine(\"5\uB124\uC6A9 ^0^\");\r\n       
+    }\r\n    }\r\n}"
+  StageAnimation: {fileID: 0}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage005_G
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: 6166017845702093204, guid: 028a15280e6be7f49be795330ffe17db, type: 3}
+  CodeTitleTXT: "\uB79C\uB364 \uBB38\uC790 \uC0DD\uC131(G)"
+  CodeMainTXT: "\uC9C0\uC815 \uAE38\uC774\uB9CC\uD07C \uB79C\uB364 \uBB38\uC790\uB97C
+    \uC0DD\uC131\uD574\uC694"
+  IsItGood: 1
+  StageCodeFile: {fileID: 4900000, guid: 5783d68d426952a4bbdc568644e070ea, type: 3}
+  StageNameCode: public string Stage_
+  StageCode: "(int length)\r\n    {\r\n        const string chars = \"abcdefghijklmnopqrstuvwxyz0123456789!@#\";\r\n       
+    Random random = new Random();\r\n        return new string(Enumerable.Repeat(chars,
+    length)\r\n            .Select(s => s[random.Next(s.Length)]).ToArray());\r\n   
+    }\r\n}"
+  StageAnimation: {fileID: 0}

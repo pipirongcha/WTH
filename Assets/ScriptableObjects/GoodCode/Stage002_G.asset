@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage002_G
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: -2044326146960832250, guid: ec1c2a9f25b996e44a09787e335fdccb, type: 3}
+  CodeTitleTXT: "16\uC9C4\uBC95 \uBCC0\uD658(G)"
+  CodeMainTXT: "16\uC9C4\uBC95\uC73C\uB85C \uBCC0\uD658\uD574\uC694"
+  IsItGood: 1
+  StageCodeFile: {fileID: 4900000, guid: 5172945508c10924cab5d76016ae7e0f, type: 3}
+  StageNameCode: public string Stage_
+  StageCode: "(int number, int baseValue)\r\n    {\r\n        if (baseValue < 2 ||
+    baseValue > 16)\r\n            throw new ArgumentException(\"baseValue must be
+    between 2 and 16.\");\r\n\r\n        if (number == 0) return \"0\";\r\n\r\n       
+    const string chars = \"0123456789ABCDEF\";\r\n        string result = string.Empty;\r\n\r\n       
+    while (number > 0)\r\n        {\r\n            result = chars[number % baseValue]
+    + result;\r\n            number /= baseValue;\r\n        }\r\n\r\n        return
+    result;\r\n    }\r\n}"
+  StageAnimation: {fileID: 0}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage013_G
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: 3405488085386789442, guid: 93252beb7f52e5a4cbf5c4cf245eef92, type: 3}
+  CodeTitleTXT: "\uC904\uBC14\uAFC8 \uC880 \uD574(G)"
+  CodeMainTXT: "\uADF8\uCE58\uB9CC\uC774\uB807\uAC8C\uB77C\uB3C4\uC9C0\uC54A\uC73C\uBA74\uAC1C\uBC1C\uC790\uCA29\uB098\uD55C\uD14C\uAD00\uC2EC\uB3C4\uC8FC\uC9C0\uC54A\uB294\uAC78..."
+  IsItGood: 1
+  StageCodeFile: {fileID: 4900000, guid: 79e3fd0da29981c4b9d8efa0971defed, type: 3}
+  StageNameCode: public void Stage_
+  StageCode: '(int n) { Console.WriteLine(n % 2 == 0 ? $"Step: {(((((n * 13 + 27)
+    ^ (n * 5)) + 39) * 3) / 4 - 7) * (n % 2 == 0 ? 9 : 2) * 17 + 42} => Computed
+    Value: {(((((n * 13 + 27) ^ (n * 5)) + 39) * 3) / 4 - 7) * (n % 2 == 0 ? 9 :
+    2) * 17 + 42} + 13 ^ {n + 5}" : "^0^"); }}'
+  StageAnimation: {fileID: 0}

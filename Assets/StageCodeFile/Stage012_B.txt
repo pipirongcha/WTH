@@ -1,0 +1,12 @@
+(int n)
+    {
+        int a = (n * 13 + 27) ^ (n * 5);
+        int b = (a + 39) * 3;
+        int c = ((b / 4) - 7) * (n % 2 == 0 ? 9 : 2);
+        int d = (c * 17) + 42;
+
+        result = a + b + c + d;
+
+        return result; 
+    }
+}

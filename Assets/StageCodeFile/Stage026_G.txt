@@ -1,0 +1,13 @@
+(List<int> list, int num)
+    {
+        string numStr = num.ToString();
+        foreach (int number in list)
+        {
+            if (number.ToString().Contains(numStr))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+}

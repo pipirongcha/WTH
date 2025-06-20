@@ -1,0 +1,12 @@
+(int n)
+    {
+        while (true)
+        {
+            n++;
+            if (n == 100)
+            {
+                true = false;
+            }
+        }
+    }
+}

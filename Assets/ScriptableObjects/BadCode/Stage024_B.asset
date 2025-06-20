@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage024_B
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: -1972723695393996561, guid: 32d1f7c1b1c62a949bfc5a2d9e9ee758, type: 3}
+  CodeTitleTXT: "\uD30C\uC774\uC36C \uAEBC\uB77C(B)"
+  CodeMainTXT: "print(\"\uD79D...\")"
+  IsItGood: 0
+  StageCodeFile: {fileID: 4900000, guid: aba099f53e3eca04a9bc420922f09964, type: 3}
+  StageNameCode: def Stage_
+  StageCode: "(n):\r\n    for i in range(len(n)) :\r\n        for j in range(i+1,
+    len(n)) :\r\n            if n[i] > n[j]:\r\n                n[i], n[j] = n[j],
+    n[i]\r\n    print(n)\r\n}"
+  StageAnimation: {fileID: 0}

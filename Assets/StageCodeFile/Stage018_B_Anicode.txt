@@ -1,0 +1,9 @@
+()
+    {
+        int firstNum = 0;
+        int secondNum = 1;
+        int thirdNum = 2;
+
+        return Console.WriteLine(firstNum + secondNum + thirdNum);
+    }
+}

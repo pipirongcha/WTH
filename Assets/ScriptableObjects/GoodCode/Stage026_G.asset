@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage026_G
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: 4519190927700875945, guid: af932a6ce8a469141955e5059a2091b9, type: 3}
+  CodeTitleTXT: "\uD3EC\uD568 \uC5EC\uBD80 \uAC80\uC0C9(G)"
+  CodeMainTXT: "\uB9AC\uC2A4\uD2B8 \uB0B4 \uC9C0\uC815 \uC22B\uC790\uAC00 \uD3EC\uD568\uB41C
+    \uAC12\uC744 \uAC80\uC0C9\uD574\uC694"
+  IsItGood: 1
+  StageCodeFile: {fileID: 4900000, guid: bda26529338c50043b56bed7e0438f32, type: 3}
+  StageNameCode: public bool Stage_
+  StageCode: "(List<int> list, int num)\r\n    {\r\n        string numStr = num.ToString();\r\n       
+    foreach (int number in list)\r\n        {\r\n            if (number.ToString().Contains(numStr))\r\n           
+    {\r\n                return true;\r\n            }\r\n        }\r\n        return
+    false;\r\n    }\r\n}"
+  StageAnimation: {fileID: 0}

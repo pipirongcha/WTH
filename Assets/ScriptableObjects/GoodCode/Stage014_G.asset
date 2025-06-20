@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage014_G
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: -3062203068688606413, guid: 8de780b0a6e3a0248b6a104c74bc6abb, type: 3}
+  CodeTitleTXT: "\uC904\uBC14\uAFC8 \uC880 \uADF8\uB9CC\uD574(G)"
+  CodeMainTXT: "\u3147 \u3159 \u3147 \u315B ?"
+  IsItGood: 1
+  StageCodeFile: {fileID: 4900000, guid: 1701a987b70cf6a4fbdba43aeeb837af, type: 3}
+  StageNameCode: public int Stage_
+  StageCode: "(\r\n        int\r\n        a\r\n        ,\r\n        int\r\n       
+    b\r\n        )\r\n    {\r\n        while\r\n            (\r\n            b\r\n           
+    !=\r\n            0\r\n            )\r\n        {\r\n            int\r\n               
+    temp\r\n                =\r\n                b\r\n                ;\r\n           
+    b\r\n                =\r\n                a\r\n                %\r\n               
+    b\r\n                ;\r\n            a\r\n                =\r\n               
+    temp\r\n                ;\r\n        }\r\n        return\r\n            a\r\n           
+    ;\r\n    }\r\n}"
+  StageAnimation: {fileID: 0}

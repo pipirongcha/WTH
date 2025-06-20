@@ -1,0 +1,13 @@
+(int num1, int num2) 
+    {
+        bool isEven = num1 % 2 == 0 & num2 % 2 == 0;
+        bool isDivisibleBy3 = num1 % 3 == 0 | num2 % 3 == 0;
+
+        if (isEven | isDivisibleBy3)
+        {
+            return true;
+        }
+
+        return false;
+    }
+}

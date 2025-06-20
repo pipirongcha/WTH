@@ -1,0 +1,8 @@
+<T>(List<T> input)
+    {
+        if (input == null)
+            return new List<T>();
+
+        return input.Distinct().ToList();
+    }
+}

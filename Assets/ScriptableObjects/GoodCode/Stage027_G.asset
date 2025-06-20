@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage027_G
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: -6212082356772938313, guid: ae29e49417b423449ad59df4911bdd04, type: 3}
+  CodeTitleTXT: "\uC758\uB3C4\uB300\uB85C \uB3D9\uC791\uC740 \uC548\uD574\uB3C4(G)"
+  CodeMainTXT: "\"\uC2E4\uD589 \uBC0F \uC815\uC0C1 \uC885\uB8CC\uAC00 \uB418\uB294
+    \uBA54\uC11C\uB4DC\uC5D0\uB294 '\uC2E4\uD589\uD558\uAE30' \uBC84\uD2BC\uC744
+    \uB20C\uB7EC\uC8FC\uC138\uC694\""
+  IsItGood: 1
+  StageCodeFile: {fileID: 4900000, guid: 0d7d2dc82bc42db498411b2acb304a41, type: 3}
+  StageNameCode: public bool Stage_
+  StageCode: "(int num1, int num2) \r\n    {\r\n        bool isEven = num1 % 2 ==
+    0 & num2 % 2 == 0;\r\n        bool isDivisibleBy3 = num1 % 3 == 0 | num2 % 3
+    == 0;\r\n\r\n        if (isEven | isDivisibleBy3)\r\n        {\r\n           
+    return true;\r\n        }\r\n\r\n        return false;\r\n    }\r\n}"
+  StageAnimation: {fileID: 0}

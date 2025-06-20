@@ -1,0 +1,17 @@
+(List<int> numbers)
+    {
+        List<int> evens = new List<int>();
+        List<int> odds = new List<int>();
+
+        foreach (int numbers in numbers)
+        {
+            if (numbers % 2 == 0)
+                evens.Add(numbers);
+            else
+                odds.Add(numbers);
+        }
+
+        Console.WriteLine("Even numbers: " + string.Join(", ", evens));
+        Console.WriteLine("Odd numbers: " + string.Join(", ", odds));
+    }
+}

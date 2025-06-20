@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage030_B
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: -5423502018762536323, guid: 84d881ebbe2af804e93e6114da4451fc, type: 3}
+  CodeTitleTXT: "\uBA54\uC11C\uB4DC\uB294 \uC815\uD655\uD788(B)"
+  CodeMainTXT: "string \uD074\uB798\uC2A4\uC5D0 Contains\uAC00 \uC788\uAE34 \uD574\uC694..."
+  IsItGood: 0
+  StageCodeFile: {fileID: 4900000, guid: 0ab6e9eaeb3e7f64e8109d441ecdad79, type: 3}
+  StageNameCode: public void Stage_
+  StageCode: "(List<string> words, string searchTerm)\r\n    {\r\n        List<string>
+    foundWords = new List<string>();\r\n\r\n        foreach (string word in words)\r\n       
+    {\r\n            if (word.Contain(searchTerm))\r\n            {\r\n               
+    foundWords.Add(word);\r\n            }\r\n        }\r\n\r\n        string foundWordsString
+    = string.Join(\", \", foundWords);\r\n        Console.WriteLine(\"Words containing
+    '\" + searchTerm + \"': \" + foundWordsString);\r\n\r\n        Console.WriteLine(\"Total
+    found words: \" + foundWords.Count.ToString());\r\n    }\r\n}"
+  StageAnimation: {fileID: 0}

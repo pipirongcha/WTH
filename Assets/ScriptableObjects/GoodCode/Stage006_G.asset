@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage006_G
+  m_EditorClassIdentifier: 
+  CodeImage: {fileID: 8542345420842004787, guid: c5b06fc50142f66489714af1179611dc, type: 3}
+  CodeTitleTXT: "\uCF54\uB4DC \uB300\uC2E0 \uC9DC\uC918(G)"
+  CodeMainTXT: "\uC694\uC998 \uC778\uACF5\uC9C0\uB2A5 \uC88B\uB124\uC694"
+  IsItGood: 1
+  StageCodeFile: {fileID: 4900000, guid: d04bb39306d6c4a4bbca43bc14cf94df, type: 3}
+  StageNameCode: public void Stage_
+  StageCode: "(List<int> numbers, int target)\r\n    {\r\n        if (numbers.Contains(target))\r\n       
+    {\r\n            Console.WriteLine($\"The number {target} is in the list.\");\r\n       
+    }\r\n        else\r\n        {\r\n            Console.WriteLine($\"The number
+    {target} is not in the list.\");\r\n        }\r\n    }\r\n}"

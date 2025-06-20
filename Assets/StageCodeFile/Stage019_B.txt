@@ -1,0 +1,24 @@
+()
+    {
+        int count = 0;
+        bool condition = true;
+
+        while (condition)
+        {
+           
+            count = (count * 2 + 5) / 3;
+
+            if (count % 5 == 0 && count % 7 != 0)
+            {
+                condition = !condition;
+            }
+
+            if (count < 0 || count % 11 == 3)
+            {
+                count = (count * count - 1000) / 10;
+            }
+
+            Console.WriteLine(count);
+        }
+    }
+}

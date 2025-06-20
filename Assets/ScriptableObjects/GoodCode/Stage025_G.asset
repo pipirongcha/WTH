@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage025_G
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: -1997493717302323556, guid: e77755e10cd856a4aaec9299ab1c11c6, type: 3}
+  CodeTitleTXT: "\uD55C\uAE00 \uCF54\uB529(G)"
+  CodeMainTXT: "\uB2D8 \uB300\uCCB4 \uBB50\uD568? \uC740 \uD1A0X\uC758 \uC138\uC885\uB300\uC655
+    \uD504\uB85C\uC81D\uD2B8\uB97C \uC9C0\uC9C0\uD569\uB2C8\uB2E4"
+  IsItGood: 1
+  StageCodeFile: {fileID: 4900000, guid: 9f0490ac2174c9b4aa9007c91966001a, type: 3}
+  StageNameCode: "public void \uC2A4\uD14C\uC774\uC9C0_"
+  StageCode: "(string \uC774\uC2ED\uC624\uD504\uB85C\uC774\uC0C1\uC9C0\uBD84\uBCF4\uC720\uC790,
+    string \uC774\uC2ED\uC624\uD504\uB85C\uBBF8\uB9CC\uC9C0\uBD84\uBCF4\uC720\uC790,
+    bool \uC2E4\uC18C\uC720\uC790\uD655\uC778\uC81C\uC678\uB300\uC0C1)\r\n    {\r\n       
+    string \uACB0\uACFC = \"\uACB0\uACFC: \";\r\n\r\n        if (\uC2E4\uC18C\uC720\uC790\uD655\uC778\uC81C\uC678\uB300\uC0C1)\r\n       
+    {\r\n            \uACB0\uACFC += \"\uC2E4\uC18C\uC720\uC790 \uD655\uC778 \uC81C\uC678
+    \uB300\uC0C1\uC785\uB2C8\uB2E4.\";\r\n        }\r\n        else\r\n        {\r\n           
+    \uACB0\uACFC += $\"\uCD5C\uB300 \uC9C0\uBD84\uC790: {(!string.IsNullOrEmpty(\uC774\uC2ED\uC624\uD504\uB85C\uC774\uC0C1\uC9C0\uBD84\uBCF4\uC720\uC790)
+    ? \uC774\uC2ED\uC624\uD504\uB85C\uC774\uC0C1\uC9C0\uBD84\uBCF4\uC720\uC790 :
+    \uC774\uC2ED\uC624\uD504\uB85C\uBBF8\uB9CC\uC9C0\uBD84\uBCF4\uC720\uC790)}\";\r\n       
+    }\r\n\r\n        Console.WriteLine(\uACB0\uACFC);\r\n    }\r\n}"
+  StageAnimation: {fileID: 0}

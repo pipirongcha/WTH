@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage019_B
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: 1993399890913743709, guid: 2715eeb15e01fa14980fc880c4bfaf94, type: 3}
+  CodeTitleTXT: "\uC601\uC6D0\uC758 While(B)"
+  CodeMainTXT: "\uCEE8\uB514\uC158\uC774 \uB298 true\uC778 \uD3B8"
+  IsItGood: 0
+  StageCodeFile: {fileID: 4900000, guid: f9e535bcf6822cd41b792cdf74366697, type: 3}
+  StageNameCode: public void Stage_
+  StageCode: "()\r\n    {\r\n        int count = 0;\r\n        bool condition = true;\r\n\r\n       
+    while (condition)\r\n        {\r\n           \r\n            count = (count *
+    2 + 5) / 3;\r\n\r\n            if (count % 5 == 0 && count % 7 != 0)\r\n           
+    {\r\n                condition = !condition;\r\n            }\r\n\r\n           
+    if (count < 0 || count % 11 == 3)\r\n            {\r\n                count =
+    (count * count - 1000) / 10;\r\n            }\r\n\r\n            Console.WriteLine(count);\r\n       
+    }\r\n    }\r\n}"
+  StageAnimation: {fileID: 0}

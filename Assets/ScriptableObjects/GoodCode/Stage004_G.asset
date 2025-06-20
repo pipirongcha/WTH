@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c32c362fc3b1249817272c07aa8f3b, type: 3}
+  m_Name: Stage004_G
+  m_EditorClassIdentifier: 
+  IconImage: {fileID: 0}
+  CodeImage: {fileID: -2330265711548825840, guid: 83cca76482943cf48867ef1915b872e1, type: 3}
+  CodeTitleTXT: "\uC911\uBCF5 \uC81C\uAC70(G)"
+  CodeMainTXT: "\uB9AC\uC2A4\uD2B8 \uB0B4 \uC911\uBCF5\uC744 \uC81C\uAC70\uD574\uC694"
+  IsItGood: 1
+  StageCodeFile: {fileID: 4900000, guid: 9198e7e8b3ac6654aafd53e708f26e35, type: 3}
+  StageNameCode: public List<T> Stage_
+  StageCode: "<T>(List<T> input)\r\n    {\r\n        if (input == null)\r\n           
+    return new List<T>();\r\n\r\n        return input.Distinct().ToList();\r\n   
+    }\r\n}"
+  StageAnimation: {fileID: 0}
